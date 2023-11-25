@@ -440,12 +440,14 @@ body {
 }
 
 .social-list-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 0;
   height: 40px;
   width: 40px;
   border-radius: 50% 50%;
-  fill: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 .social-list-icon {

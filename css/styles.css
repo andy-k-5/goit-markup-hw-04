@@ -487,9 +487,6 @@ body {
   max-width: 264px;
 }
 
-.media-container {
-}
-
 .media {
   color: var(--WHITE, #fff);
   font-family: Roboto;

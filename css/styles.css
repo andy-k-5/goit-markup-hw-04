@@ -473,6 +473,8 @@ body {
 
 .main-footer .container {
   display: flex;
+  margin-right: 120px;
+  align-items: baseline;
 }
 
 .container {
@@ -529,7 +531,7 @@ body {
 
 .social-list {
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
   margin-left: 120px;
 }
 
@@ -546,6 +548,10 @@ body {
 }
 
 .social-list-link:hover {
+  background-color: #31d0aa;
+}
+
+.social-list-link:focus {
   background-color: #31d0aa;
 }
 

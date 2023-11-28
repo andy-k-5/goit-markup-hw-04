@@ -284,10 +284,7 @@ body {
 /*our team*/
 
 .team {
-  width: 1440px;
   background: var(--CLOUD, #f4f4fd);
-  border-radius: 0px 0px 4px 4px;
-  margin: auto;
 }
 .team-person {
   border-radius: 0px 0px 4px 4px;
@@ -395,7 +392,8 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   background: #fff;
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 
 .production {
@@ -410,7 +408,7 @@ body {
 .department {
   font-size: 16px;
   line-height: 1.5;
-  padding: 40px 32px;
+  margin-bottom: 32px;
   letter-spacing: 0.02em;
   font-weight: 400;
   line-height: 1.5;
@@ -494,10 +492,6 @@ body {
   margin-right: auto;
 }
 
-.logo-container {
-  margin-right: 120px;
-}
-
 .main {
   line-height: 1.17;
 }
@@ -530,6 +524,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
   max-width: 264px;
+}
+
+.media-container {
+  padding-left: 120px;
 }
 
 .media {
